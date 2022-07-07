@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/widgets.dart';
 import 'package:http/http.dart' as http;
 
-import '../httpexception.dart';
+import './httpexception.dart';
 
 class Auth with ChangeNotifier {
   late String _token;
