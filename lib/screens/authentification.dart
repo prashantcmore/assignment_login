@@ -1,8 +1,8 @@
 import 'package:assignment_login/modules/auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:assignment_login/modules/httpexception.dart';
-import 'package:assignment_login/screens/home_screen.dart';
+import '/modules/httpexception.dart';
+import 'package:/assignment_login/screens/home_screen.dart';
 
 enum AuthMode { SignUp, SignIn }
 
